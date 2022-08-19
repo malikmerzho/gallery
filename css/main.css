@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efefef;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px));
+    background-color: orange;
+    margin: 20px 0 0 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+main {
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.photo1 {
+    background-image: url(../img/1.jpg);
+}
+
+.photo2 {
+    background-image: url(../img/2.webp);
+} 
+    
+.photo3 {
+    background-image: url(../img/3.webp);
+}
+
+.photo4 {
+    background-image: url(../img/4.JPG);
+}
+
+.photo5 {
+    background-image: url(../img/5.jpg);
+}
+
+.photo6 {
+    background-image: url(../img/6.jpg);
+}
